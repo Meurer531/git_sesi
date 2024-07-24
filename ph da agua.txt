@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linha Horizontal com Texto</title>
+<style>
+  
+
+  
+
+
+  .linha-roxa {
+    border: none;
+    background-color: blueviolet;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+  
+
+
+  .linha-roxa2{
+    border: none;
+    background-color:darkviolet;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+
+  }
+
+  .linha-roxa3{
+    border: none;
+    background-color:darkorchid;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-azul{
+    border: none;
+    background-color:blue;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-azul2{
+
+    border: none;
+    background-color:deepskyblue;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-azul3{
+    border: none;
+    background-color:cyan;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-verde{
+    border: none;
+    background-color:chartreuse;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-verde2{
+    border: none;
+    background-color:forestgreen;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-verde3{
+    border: none;
+    background-color:mediumseagreen;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-verde4{
+    border: none;
+    background-color:mediumspringgreen;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-amarela{
+    border: none;
+    background-color:palegoldenrod;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-amarela2{
+    border: none;
+    background-color:yellow;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-laranja{
+    border: none;
+    background-color:coral;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-laranja2{
+    border: none;
+    background-color:orange;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  .linha-vermelha{
+    border: none;
+    background-color:red;
+    height: 40px; 
+    position:initial;
+    margin: 10px 0; 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+
+  
+  
+  .texto-na-linha {
+    
+    background-color: white; 
+    padding: 0 5px; 
+    
+    
+  }
+</style>
+</head>
+<body>
+
+    <h1>PH da Água</h1>
+    
+
+<div class="linha-roxa">
+    14
+  <!--<span class="texto-na-linha">Texto dentro da linha</span>-->
+</div>
+
+
+<div class="linha-roxa2">13</div>
+
+<div class="linha-roxa3">12</div>
+
+<div class="linha-azul">11</div>
+
+<div class="linha-azul2">10</div>
+
+<div class="linha-azul3">9</div>
+
+<div class="linha-verde">8</div>
+
+<div class="linha-verde2">7 (Neutro)</div>
+
+<div class="linha-verde3">6</div>
+
+<div class="linha-verde4">5</div>
+
+<div class="linha-amarela">4</div>
+
+<div class="linha-amarela2">3</div>
+
+<div class="linha-laranja">2</div>
+
+<div class="linha-laranja2">1</div>
+
+<div class="linha-vermelha">0</div>
+
+</body>
+</html>
