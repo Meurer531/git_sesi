@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem alerta</title>
+</head>
+<body>
+    
+    <script>
+
+        
+            alert("Você entrou na minha página com a mensagem de alerta!!");
+        
+    </script>
+
+    <h1>Mensagem de Alerta!</h1>
+
+</body>
+</html>
