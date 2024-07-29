@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior ou Menor de Idade</title>
+</head>
+<body>
+    <h1>Maior ou Menor de Idade:</h1>
+
+    <button onclick = "VerificarIdade()">Verificar</button>
+    <p>Clique no botão acima para verificar sua idade.</p>
+    
+
+    <script>
+
+        function VerificarIdade(){
+            let idade = prompt("Digite a sua idade:");
+
+            idade = parseInt(idade);
+
+            if(!isNaN(idade)){
+                if (idade >= 18){
+                alert("ótimo, você é maior de idade!");
+            } else {
+                alert("Você é menor de idade, saia imediatamente!!!");
+            }
+        }
+    }
+    </script>
+
+    
+
+</body>
+</html>
