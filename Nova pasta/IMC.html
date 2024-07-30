@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="calcularIMC">
+
+        <h1>Calcular IMC:</h1>
+        <input type="number" id="peso" placeholder="Peso em (kg)" step="0.1" required="">
+        <input type="number" id="altura" placeholder="Altura em metros" step="0.01" required="">
+        <button onclick="calcularIMC()">Calcular</button>
+        <div class="resultadofinal" id="resultado-final"></div>
+
+        <script>
+
+            function calcularIMC() {
+
+                const peso = parseFloat(document.getElementById('peso').value);
+                const altura = parseFloat(document.getElementById('altura').value);
+                const resultadofinal = document.getElementById('resultado-final');
+
+
+                if (isNaN(peso) || isNaN(altura) || altura <= 0) {
+                    resultadofinal.innerHTML = 'Por favor, insira números que sejam válidos';
+                    return;
+
+                }
+
+
+                let IMC = peso / (altura * altura);
+
+                let classificacao = '';
+                if (IMC < 18.5) {
+                    classificacao = 'Abaixo do Peso';
+                }
+
+                else if (IMC >= 18.5 && IMC < 24.9) {
+                    classificacao = 'Peso Normal'
+                }
+
+                else if (IMC >= 25 && IMC < 29.9) {
+                    classificacao = 'SobrePeso';
+                }
+
+                else {
+                    classificacao = 'Obeso';
+                }
+
+            
+
+                alert('De acordo com os dados, seu imc é: ' + IMC.toFixed(2) + ' (' + classificacao + ').');
+            }
+
+
+
+        </script>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
