@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Primos</title>
+</head>
+<body>
+
+    <script>
+        function acharPrimo(){
+        var primosEncontrados = 0;
+        for (dividendo = 2; primosEncontrados < 1001; dividendo++) {
+          var ehPrimo = true;
+          for (divisor = 2; dividendo > divisor ; divisor++) {
+            if (dividendo % divisor == 0) {
+              ehPrimo = false;
+              break;
+            };
+          };
+          if (Boolean(ehPrimo)) { 
+            primosEncontrados++;
+          }
+        };
+        
+        document.getElementById('resultado').innerText = `O 1001° número primo é: ${primosEncontrados}`;
+    }
+      </script>
+    
+
+    <h1>Achar Número Primo</h1>
+    <button onclick="acharPrimo()">Achar</button>
+    <p id="resultado"></p>
+
+   
+</body>
+</html>

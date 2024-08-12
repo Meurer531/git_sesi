@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+    
+    <h1>Fibonacci</h1>
+    <button onclick="calcularFibo()">Calcular</button>
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
+
+    <script>
+
+        function calcularFibo(){
+            const total = 50000;
+            let a = 0, b = 1;
+            let somaTotal = 0;
+
+            while(a <= total){
+                if(a % 2 === 0){
+                    somaTotal += a;
+                }
+            
+
+                [a, b] = [b, a + b];
+            }
+
+            document.getElementById('resultado').innerText = `A soma final deu ${total}: ${somaTotal}`;
+        }
+    </script>
+
+
+</body>
+</html>
