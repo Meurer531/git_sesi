@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1>Guilherme Meurer</h1>
+        <p>Email: guilherm.meurer718@gmail.com</p>
+
+    <section>
+
+        <b><h2>Educação</h2></b>
+        <p>Curso Técnico em Desenvolvimento de Sistemas - SENAI</p>
+
+    </section>
+
+    <section>
+
+        <h2>Experiência</h2>
+        <ul>
+            <li>Estágio em Desenvolvimento Web</li>
+            <li>Projeto Freelance de E-commerce</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <lI>HTML5</lI>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <p>Veja mais no meu <a href="https:www.instagram.com/_m3ure.r">Instagram</a></p>
+
+</body>
+</html>
