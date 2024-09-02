@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exploração.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <div id="topo">Topo</div>
+
+        <div id="menu"> Menu</div>
+        <div id="conteudo">
+            <div class="containerator">
+                <h2>Joel</h2>
+                <div class="imglateralator"><img class="formatimg" src="pascal.jpg" height="150px" width="150px" alt=""
+                        align="left"></div>
+                <div>
+                    <p align="justify">
+                        &ensp;&ensp;&ensp; Interpretado por Pedro Pascal, Joel (40/50 anos) é um sobrevivente brutal com
+                        poucas
+                        linhas morais
+                        restantes a cruzar. Joel foi endurecido pela devastação da pandemia de fungos que devastou a
+                        civilização
+                        como a conhecemos. Ele perdeu amigos, família e tudo o que ele valorizou na vida. Vivendo em uma
+                        das
+                        poucas zonas de quarentena controladas pelos militares, ele opera como um contrabandista do
+                        mercado
+                        negro, negociando contrabando, assumindo vários empregos desumanizadores ao longo dos anos para
+                        sobreviver neste novo mundo pós-pandêmico. A consciência de Joel diminui lentamente enquanto ele
+                        fecha
+                        suas emoções para lidar com sua nova vida.
+                    </p>
+                </div>
+            </div>
+            <div class="containerator">
+                <h2>Bella Ramsey</h2>
+                <div class="imglateralator"><img class="formatimg" src="bella.jpg" alt="" height="150px" width="150px"
+                        align="left"></div>
+                <div>
+                    <p>
+                        &ensp;&ensp;&ensp;Bella Ramsey será a corajosa garota de 14 anos e personagem central da trama.
+                        Ellie cresceu neste mundo
+                        cruel e é tudo o que ela já conheceu. Ela é uma órfã que foi criada em um colégio interno
+                        administrado
+                        pelos militares dentro dos limites da zona de quarentena. Ingênua e curiosa sobre o mundo
+                        exterior, ela
+                        é sábia além de sua idade e altamente capaz de cuidar de si mesma e das pessoas ao seu redor.
+                        Ellie é
+                        obcecada por quadrinhos, CDs e outras culturas pop. Sua base de conhecimento é preenchida pelos
+                        resquícios de um mundo que não existe mais.
+
+                    </p>
+                </div>
+            </div>
+            <div class="containerator">
+                <h2>Gabriel Luna</h2>
+                <div class="imglateralator"><img class="formatimg" src="luna.jpg" height="150px" width="150px"
+                        align="left"></div>
+                <div>
+                    <p>O irmão mais novo de Joel, será vivido na TV por Gabriel Luna. Veterinário militar, Tommy é
+                        engraçado.
+                        Mais idealista do que Joel e vê o lado mais leve das coisas.
+                    </p>
+                </div>
+            </div>
+            <div class="containerator">
+                <h2>Nico Parker</h2>
+                <div class="imglateralator"><img class="formatimg" src="nico.jpg" height="150px" width="150px"
+                        align="left"></div>
+                <div>
+                    <p>
+                        &ensp;&ensp;&ensp;Entre 12 e 13 anos. A filha do Joel será interpretada por Nico Parker. Vida
+                        escolar
+                        feliz, o orgulho do
+                        pai. Esportista, induz Joel a acompanhar seu ritmo.
+                    </p>
+                </div>
+            </div>
+
+            <p><b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Quer ver a Série? Acesse a <a href="https://www.max.com/br/pt">HBOMax</b></a></p>
+
+        </div>
+
+        <div id="rodape">Rodapé</div>
+    </div>
+</body>
+
+</html>
