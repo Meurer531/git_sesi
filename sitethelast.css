@@ -1,0 +1,70 @@
+/*body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*/
+
+#container {
+
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+#menu{
+
+    width: 800px;
+    height: 30px;
+    background-color: darkcyan;
+}
+
+#conteudo{
+
+    width: 800px;
+    height: 1200px;
+    background-color: #ccc;
+    margin-top: -20px;
+}
+
+#rodape, #topo{
+
+    width: 800px;
+    height: 50px;
+    background-color: coral;
+}
+
+.formatimg{
+
+    border-radius: 100%;
+}
+
+p{
+    text-align: justify;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.imglateralator
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.containerator
+{
+
+    height: 230px;
+    background-color: antiquewhite;
+}
