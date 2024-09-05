@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container{
+    margin: 0 auto; 
+    width:800px;
+    height: auto;
+    position: relative;
+    background-color: chocolate;
+}
+
+#topo{
+    width:800px;
+    height:130px;
+    background-color: chartreuse;
+}
+
+#rodape{
+    width:800px;
+    height:50px;
+    background-color: chartreuse;
+}
+
+#lateralesquerda{
+    width:200px;
+    height:500px;
+    background-color: aqua;
+
+}
+
+#conteudo{
+    background-color: crimson;
+    width:600px;
+    height:500px;
+    text-align: right;
+    position: absolute;
+    top:130px;
+    left:200px;
+}
+
