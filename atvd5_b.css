@@ -1,0 +1,22 @@
+h4
+{
+    color: gray;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    
+
+    
+    position:relative;
+}
+
+.tenis{
+    float: top;
+    margin-top: 30px;
+    width: 140px;
+    background-color: blueviolet;
+}
