@@ -1,0 +1,64 @@
+.container {
+
+
+    margin-left: 15px;
+
+}
+
+.titulo {
+    background-color: aliceblue;
+    color: black;
+    width: 500px;
+    height: auto;
+}
+
+.titulo2 {
+    background-color: gray;
+    color: aliceblue;
+    width: 500px;
+    height: auto;
+    margin-top: -20px;
+    text-transform: uppercase;
+
+}
+
+.datafolha {
+    text-transform: uppercase;
+}
+
+.Dilma {
+    color: #4169E1;
+    width: 300px;
+    border-bottom: 0.2px solid #ccc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.politica {
+    text-transform: uppercase;
+}
+
+.lula {
+    color: #4169E1;
+    width: 300px;
+}
+
+.uls {
+    color: #4169E1;
+    border-bottom: 0.2px solid #ccc;
+    width: 300px;
+}
+
+.candidato1
+{
+    margin-right: 20px;
+    
+}
+.pp
+{
+    text-transform: uppercase;
+}
+
+.hh
+{
+    width: 400px;
+}
