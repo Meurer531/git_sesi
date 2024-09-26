@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="atvd7_b.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
 
     <div class="titl">
         <h3>sistema de gestão acadêmica</h3>
@@ -20,46 +22,136 @@
     <form action="">
 
         <table>
-        <tr>
-            <td>
-                <label for="Login"><b>Login:</b></label>
-            </td>
-        </tr>
+            <tr>
+                <td>
+                    <label for="Login"><b>Login:</b></label>
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
 
-        <tr>
-            <td>
-                <input type="text" />
-            </td>
-        </tr>
 
-        <tr>
-            <td>
-                <label for="Senha"><b>Senha:</b></label>
-            </td>
-        </tr>
 
-        <tr>
-            <td>
-                <input type="text" />
-            </td>
-        </tr>
+            <tr>
+                <td>
+                    <label for="Senha"><b>Senha:</b></label>
+                </td>
 
-        <tr>
-            <td>
-                <label for="Status"><b>Status:</b></label>
-            </td>
-        </tr>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
 
-        <tr>
-            <td>
-                
-            </td>
-        </tr>
 
+
+            <tr>
+                <td>
+                    <label for="Status"><b>Status:</b></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <select name="inat" id="inat">
+                        <option selected value="">inativo</option>
+                        <option value="">ativo</option>
+                        <option value="">desligado</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Tipo"><b>Tipo</b></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio"><b>Técnico</b>
+                </td>
+                <td>
+                    <input type="radio"><b>Professor</b>
+                </td>
+                <td>
+                    <input type="radio"><b>Aluno</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="datcriacao"><b>Data Criação</b></label>
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="perfil"><b>Perfil</b></label>
+                </td>
+                <td>
+                    <input type="radio"><b>Convidado</b>
+                </td>
+                <td>
+                    <input type="radio"><b>Administrador</b>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <label for=""><b>Observações</b></label>
+                </td>
+
+                <td>
+                    <textarea name="obs" id="obs"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for=""><b>Módulos</b></label>
+                </td>
+
+                <td>
+                    <input type="checkbox"><b>Compras</b>
+                </td>
+                <td>
+                    <input type="checkbox"><b>Biblioteca</b>
+                </td>
+                <td>
+                    <input type="checkbox"><b>Acadêmico</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+
+                <td>
+                    <input type="checkbox"><b>Documentação</b>
+                </td>
+                <td>
+                    <input type="checkbox"><b>Recursos Humanos</b>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <button>Cadastrar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
         </table>
     </form>
 
-        
+
 
 </body>
+
 </html>
