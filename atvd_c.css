@@ -3,7 +3,7 @@
 {
     background-color: #F1FAF1;
     width: 990px;
-    height: 500px;
+    height: 900px;
     margin: 0 auto;
     border: solid 0.3px #f1f2;
     padding-top: 25px;
@@ -15,7 +15,7 @@
     width: 800px;
     background-color: #F1FAF1;
     margin-left: 100px;
-    height: 400px;
+    height: 700px;
     padding: 10px 15px 15px 10px;
     border: solid 0.3px rgb(2, 255, 128);    
 }
@@ -49,10 +49,40 @@
     width: 125px;
     color: #24A724;
     text-align: center;
+    
 
 }
 
 .lab
 {
     color: #6AC36A;
+}
+
+.faixa
+{
+    background: #FFF;
+    border: solid 0.3px rgb(2, 255, 128); 
+    font-weight: bolder;
+    width: 773px;
+    height: auto;
+    color: #24A724;
+    text-align: center;
+}
+
+.tab
+{
+    text-align: left;
+    float: left;
+    width: 385px;
+    
+}
+
+.esportes
+{
+    background: #FFF;
+    border: solid 0.3px rgb(2, 255, 128); 
+    font-weight: bolder;
+    width: 773px;
+    height: auto;
+    color: #24A724;
 }
