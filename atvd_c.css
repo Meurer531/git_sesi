@@ -3,10 +3,14 @@
 {
     background-color: #F1FAF1;
     width: 990px;
-    height: 900px;
+    height: 850px;
     margin: 0 auto;
     border: solid 0.3px #f1f2;
     padding-top: 25px;
+    background-image: url(carteiro.png); 
+    background-repeat: no-repeat;
+    background-size: 90px;
+    
 
 }
 
@@ -15,9 +19,10 @@
     width: 800px;
     background-color: #F1FAF1;
     margin-left: 100px;
-    height: 700px;
+    height: 500px;
     padding: 10px 15px 15px 10px;
-    border: solid 0.3px rgb(2, 255, 128);    
+    border: solid 0.3px rgb(2, 255, 128);
+
 }
 
 .dados
@@ -27,6 +32,10 @@
     background-color: #F1FAF1;
     float: left;
     border: solid 0.3px rgb(2, 255, 128);
+    background-image: url(office.png); 
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: right;
     
 }
 
@@ -38,6 +47,10 @@
     float: left;
     border: solid 0.3px rgb(2, 255, 128);
     margin-left: 30px;
+    background-image: url(mundo.png);
+    background-size: 100px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .estilizarP
@@ -60,13 +73,18 @@
 
 .faixa
 {
-    background: #FFF;
+    background: #F0FAF1;
     border: solid 0.3px rgb(2, 255, 128); 
     font-weight: bolder;
     width: 773px;
     height: auto;
     color: #24A724;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(faixa.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .tab
@@ -79,10 +97,38 @@
 
 .esportes
 {
-    background: #FFF;
+    background: #F0FAF1;
     border: solid 0.3px rgb(2, 255, 128); 
     font-weight: bolder;
     width: 773px;
     height: auto;
     color: #24A724;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(ginastica.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: right;
+}
+
+.comentario
+{
+    width: 800px;
+    background-color: #F0FAF1;
+    margin-left: 100px;
+    margin-top: 15px;
+    height: 180px;
+    padding: 10px 15px 15px 10px;
+    border: solid 0.3px rgb(2, 255, 128);  
+    color: #24A724;
+    background-image: url(conversa.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: right;
+    
+}
+
+.bot
+{
+    margin-left: 100px;
+    margin-top: 15px;
 }
