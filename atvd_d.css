@@ -1,12 +1,12 @@
 .c1
 {
     background-color: #66CCFF;
-    width: 575px;
+    width: 490px;
 }
 .c2
 {
     background-color: #000066;
-    width: 249px;
+    width: 345px;
 
     
 }
@@ -20,16 +20,23 @@ table
 
 .pessoais
 {
-    width: 705px;
+    width: 721px;
 }
 
 .endereco
 {
-    width:315px;
+    width:323px;
     text-align: right;
 }
 
-.estados
+.chec
 {
-    
+    margin-left: -230px;
 }
+
+.sexo
+{
+    margin-left: -290px;
+}
+
+
